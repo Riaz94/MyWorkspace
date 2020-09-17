@@ -1,4 +1,3 @@
-
 public class Tamils extends Indians {   //At first it wont allow Indians to extend because there is a abstract method(Incomplete method) in the Indians class.
 
 	public static void main(String[] args) {
@@ -16,7 +15,7 @@ public class Tamils extends Indians {   //At first it wont allow Indians to exte
 	
 	void haveBreakfast() {          //After creating method with clear definition in this child class extends Indians will be accepted and the red line will be gone.
 		System.out.println("Having Breakfast");   //If this method is not defined clearly then the class should be declared as an abstract. i.e, abstract class Tamils extends Indians.
-	}                                            //An abstract class's(Indians) child(Tamils) can be abstract and so no need to define the abstract method declared in the Indians class.
+	}                                           //An abstract class's(Indians) child(Tamils) can be abstract and so no need to define the abstract method declared in the Indians class.
                                                  //This can also be called as method over ride.
 	
 	void Tamilculture() {           //This method is owned by Tamils class
